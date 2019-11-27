@@ -1,3 +1,5 @@
+package Lab8;
+
 public class Lab8{
 
     private static void arrayList(short[] array){
@@ -38,7 +40,7 @@ public class Lab8{
         }
     }
 
-    public static void main(String [] args){
+    public static void main( ){
         short[] array = {-5, 0, -15, -10, 10, 5, 15};
         System.out.println("Main array:");
         arrayList(array);

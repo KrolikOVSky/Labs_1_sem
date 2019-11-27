@@ -1,7 +1,9 @@
+package Lab2;
+
 
 public class Lab2
 {
-    public static void main(String [] arg)
+    public static void main( )
     {
         
         int a = 253;

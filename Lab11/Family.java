@@ -1,3 +1,5 @@
+package Lab11;
+
 public class Family{
     
     //Main vars

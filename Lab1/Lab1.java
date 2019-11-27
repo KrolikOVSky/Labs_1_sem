@@ -1,7 +1,9 @@
+package Lab1;
+
 import java.util.Date;
 public class Lab1
 {
-    public static void main(String [] arg)
+    public static void main()
     {
         Date d;
         d = new Date();

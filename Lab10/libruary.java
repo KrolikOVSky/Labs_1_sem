@@ -1,3 +1,5 @@
+package Lab10;
+
 import java.util.Random;
 public class libruary{
    
@@ -41,10 +43,6 @@ public class libruary{
         return i;
     }
 
-    public static int recursing2(int[] array, int start, int end, int min){
-        
-        
-    }
     
     public static void filling(int[] array, int min, int max){
         for(int i = 0; i < array.length; i++){

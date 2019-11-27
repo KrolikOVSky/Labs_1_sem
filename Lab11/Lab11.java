@@ -1,3 +1,5 @@
+package Lab11;
+
 public class Lab11{
 
     public static void main(){
@@ -17,7 +19,7 @@ public class Lab11{
         System.out.println("f3:"+ f3);
         System.out.println("f4:"+ f4);
         System.out.println("f5:"+ f5);
-        //Вывод результатов сравнения объектов
+        
         System.out.println("\nf1==f2: "+ f1.equals(f2));
         System.out.println("f1==f3: "+ f1.equals(f3));
         System.out.println("f1==f4: "+ f1.equals(f4));

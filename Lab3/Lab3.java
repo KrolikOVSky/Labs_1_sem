@@ -1,7 +1,9 @@
+package Lab3;
+
 
 public class Lab3
 {
-    public static void main( String [] arg)
+    public static void main( )
     {
         int a = 456;
         int b = 1234;

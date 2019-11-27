@@ -1,3 +1,5 @@
+package Lab5;
+
 import java.util.Scanner;
 public class Lab5{
 
@@ -14,7 +16,7 @@ public class Lab5{
         System.out.println();
     }
 
-    public static void main(String [] args){
+    public static void main( ){
         Scanner in = new Scanner(System.in);
         char c, d;
         System.out.println("Please enter some characters");

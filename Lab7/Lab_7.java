@@ -1,3 +1,5 @@
+package Lab7;
+
 public class Lab_7{
 
     public static double function(double x){

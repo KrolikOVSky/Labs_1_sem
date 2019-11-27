@@ -1,5 +1,7 @@
+package Lab10;
+
 import java.util.Scanner;
-public class Lab5{
+public class Lab10{
     public static void main(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entre size of array:\nLength = ");
