@@ -1,7 +1,7 @@
 package Lab4;
 
 public class Lab4{
-    public static void main( ){
+    public static void main(String [] args){
         int x, z;
         double m, k;
         x = -4;

@@ -16,7 +16,7 @@ public class Lab5{
         System.out.println();
     }
 
-    public static void main( ){
+    public static void main(String [] args){
         Scanner in = new Scanner(System.in);
         char c, d;
         System.out.println("Please enter some characters");

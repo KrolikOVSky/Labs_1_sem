@@ -1,8 +1,18 @@
 import java.util.Scanner;
 public class Labs{
-    public static void main(){
+    public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
+        byte num = (byte)0;
+        System.out.print("Please enter number of lab: ");
+        if(scanner.hasNextByte()){
+            num = (byte)scanner.nextByte();
+            scanner.close();
+        }
+        else{
+            System.out.println("Wrong symbol");
+            scanner.close();
+            return;
+        }
         Lab1.Lab1 lab1 = new Lab1.Lab1();
         Lab2.Lab2 lab2 = new Lab2.Lab2();
         Lab3.Lab3 lab3 = new Lab3.Lab3();
@@ -15,17 +25,18 @@ public class Labs{
         Lab10.Lab10 lab10 = new Lab10.Lab10();
         Lab11.Lab11 lab11 = new Lab11.Lab11();
         switch(num){
-            case 1: lab1.main(); break;
-            case 2: lab2.main(); break;
-            case 3: lab3.main(); break;
-            case 4: lab4.main(); break;
-            case 5: lab5.main(); break;
-            case 6: lab6.main(); break;
-            case 7: lab7.main(); break;
-            case 8: lab8.main(); break;
-            case 9: lab9.main(); break;
-            case 10: lab10.main(); break;
-            case 11: lab11.main(); break;
+            case 1: lab1.main(args); break;
+            case 2: lab2.main(args); break;
+            case 3: lab3.main(args); break;
+            case 4: lab4.main(args); break;
+            case 5: lab5.main(args); break;
+            case 6: lab6.main(args); break;
+            case 7: lab7.main(args); break;
+            case 8: lab8.main(args); break;
+            case 9: lab9.main(args); break;
+            case 10: lab10.main(args); break;
+            case 11: lab11.main(args); break;
+            default: System.out.println("Wrong number of lab");
         }
     }
 }

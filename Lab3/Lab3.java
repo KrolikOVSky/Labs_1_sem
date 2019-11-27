@@ -3,7 +3,7 @@ package Lab3;
 
 public class Lab3
 {
-    public static void main( )
+    public static void main(String [] args)
     {
         int a = 456;
         int b = 1234;

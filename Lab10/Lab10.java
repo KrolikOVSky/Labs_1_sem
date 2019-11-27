@@ -2,7 +2,7 @@ package Lab10;
 
 import java.util.Scanner;
 public class Lab10{
-    public static void main(){
+    public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entre size of array:\nLength = ");
         int length = 1;

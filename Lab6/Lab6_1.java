@@ -13,7 +13,7 @@ public class Lab6_1{
         System.out.printf("g = %8.10f\tz = %8.10f\ty = %8.10f\n",g, z, y);
     }
 
-    public static void main( ){
+    public static void main(String [] args){
         double g, z, y, x;
         Scanner read = new Scanner (System.in);
         System.out.print("Please enter x = ");

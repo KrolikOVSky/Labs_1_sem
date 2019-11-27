@@ -3,7 +3,7 @@ package Lab1;
 import java.util.Date;
 public class Lab1
 {
-    public static void main()
+    public static void main(String[]args)
     {
         Date d;
         d = new Date();

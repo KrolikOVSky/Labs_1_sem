@@ -72,7 +72,7 @@ public class Lab9{
         return solve;
     }
 
-    public static void main( ){
+    public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter size of matrix");
         System.out.print("Line = ");
