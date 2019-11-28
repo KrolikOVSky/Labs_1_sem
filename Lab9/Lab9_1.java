@@ -1,7 +1,7 @@
 package Lab9;
 
 import java.util.*;
-public class Lab9{
+public class Lab9_1{
 
     private static int[] vector(int[][] array){
         int[] vector = new int [array[0].length];
@@ -72,7 +72,7 @@ public class Lab9{
         return solve;
     }
 
-    public static void main(String [] args){
+    public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter size of matrix");
         System.out.print("Line = ");
