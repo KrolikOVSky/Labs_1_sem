@@ -21,9 +21,10 @@ public class Labs{
         Lab6.Lab6_1 lab6 = new Lab6.Lab6_1();
         Lab7.Lab7 lab7 = new Lab7.Lab7();
         Lab8.Lab8 lab8 = new Lab8.Lab8();
-        Lab9.Lab9 lab9 = new Lab9.Lab9();
+        Lab9.Lab9_1 lab9 = new Lab9.Lab9_1();
         Lab10.Lab10 lab10 = new Lab10.Lab10();
         Lab11.Lab11 lab11 = new Lab11.Lab11();
+        Lab12.Lab12 lab12 = new Lab12.Lab12();
         switch(num){
             case 1: lab1.main(args); break;
             case 2: lab2.main(args); break;
